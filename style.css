@@ -1,0 +1,452 @@
+.navbar {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 0;
+}
+
+#hero{
+    margin-top: 130px;
+}
+
+#hero .company{
+    width:100%;
+}
+
+
+.content-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #08844C;
+    gap:23px;
+}
+
+.section-one {
+    background-image: url('assets/image/Desktop\ -\ 1.svg');
+    height: 720px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.logokolaka {
+    width: 82.97px;
+    height: 93px;
+}
+
+.content-navbar p {
+    margin-top: 18.5px;
+    font-size: 20px;
+    font-weight: bold
+}
+
+
+
+.welcome p {
+    color: #7D7987;
+}
+
+.content-one {
+    margin-top: 208px;
+    margin-bottom: 208px;
+    
+}
+
+.content-one .title {
+    margin-bottom: 13px;
+}
+
+.content-one .sub-title {
+    margin-top: 11px;
+    margin-bottom: 30px;
+}
+
+#hero .title {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#hero .sub-title {
+    color: #FFF;
+    font-size: 21px;
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;    
+}
+
+#hero button {
+    color: #00923F;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FEEF00;
+    height: 46px;
+    width: 202px;
+    border: none;
+    border-radius: 10px;
+}
+
+#aplikasi {
+    margin-bottom: 193px;
+    margin-top: 167px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.apk {
+    color: #08844C;
+    font-size: 36px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+.aplikasi {
+    color: #003F7D;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: Inter, sans-serif;
+    margin-top: 10vh;
+}
+
+.aplikasi img {
+    margin-bottom: 370px;
+}
+
+.text-center-sorume {
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.text-center-emonev {
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.text-center-esakip {
+    color: #FECD0E;
+    font-size: 10px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+.title {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+
+.box {
+    height: 250px;
+    width: 245px;
+    background-color: #7D7987;
+    margin-bottom: 100px;
+}
+
+section {
+    margin-bottom: 2vh;
+}
+/* 
+footer{
+    background-color: #003F7D;
+    padding: 40px 0;
+    color: #fff;
+}
+
+footer .title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.footer-ket .ket {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-top: -5px;
+}
+
+.footers3 {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+} */
+
+.card {
+    animation-name: slide-up;
+    background-color: #D7FBE8;
+    /* border-radius: 20px 0 0 20px; */
+    margin-top: 110px;
+    height: 354px;
+    position: relative;
+}
+
+.card .title {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500px;
+    font-family: Poppins, sans-serif;
+    margin-top: 18px;
+}
+
+.keterangan {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Mulish, sans-serif;
+    color: #7D7987;
+    letter-spacing: 0.5px;
+    /* line-height: 32px; */
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+.card button {
+    background-color: #08844C;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    height: 52px;
+    width: 195px;
+    
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    background-color: #08844C;
+    color: #FFF;
+    margin-bottom: -10px;
+    bottom: 0;
+}
+
+.footer-logo {
+    margin-top: 52px;
+}
+
+.footer-ket {
+    margin-top: 52px;
+}
+
+.footer-ket .title {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Mulish, sans-serif;
+    color: #FEEF00;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+.footer-ket .ket {
+    font-size: 18px;
+    font-weight: 200;
+    font-style: Mulish, sans-serif;
+    width: 60%;
+}
+
+.container .title {
+    font-size: 18px;
+    font-family: Mulish, sans-serif;
+}
+
+.icon {
+    margin-top: 65px;
+}
+
+.icon .d-flex img {
+    width: 24px;
+    
+}
+
+.icon .title {
+    color: #FEEF00;
+}
+
+.copyright .title {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Poppins, sans-serif;
+    color: #FFF;   
+}
+
+.sosmed {
+    display: flex;
+    gap: 12px;
+}
+
+.youtube {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+
+
+@media (max-width: 767px) {
+
+    .navbar {
+        background-color: #003F7D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 0;
+    }
+    .content-navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        gap: 15px;
+    }
+
+    .content-navbar p {
+        margin-top: 18.5px;
+        font-size: 20px;
+        font-weight: bold
+    }
+    #hero{
+        margin-top: 120px;
+    }
+    #hero .company{
+        width:80%;
+        display: flex;
+        margin: 0 auto;
+    }
+    #hero .title {
+        color: #003F7D;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #hero .sub-title {
+        font-size: 15px;
+    }
+
+    .welcome {
+        margin-top: 18vh;
+        /* background-color: red;
+        position: relative;
+        width: 100px;
+        color: #000; */
+        margin-left: -200px;        
+    }
+
+    .welcome h1 {
+        font-size: 24px;
+    }
+
+    .welcome p {
+        font-size: 10px;        
+    }
+    
+    .logokolaka {
+        width: 30px;
+        height: 40px;
+    }
+
+    .line {
+        width: 2.5px;
+        height: 26px;
+    }
+
+    .content-navbar p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .industri {
+        animation-name: slide-left;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        float: right;
+        margin-top: 160px;
+    }
+
+    .industri img {
+        width: 200px;
+        height: auto;
+    }
+
+    .aplikasi {
+        font-size: 20px;
+    }
+
+    footer{
+        background-color: #003F7D;
+        padding: 40px 0;
+        color: #fff;
+        
+    }
+    
+    footer .title{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 9px;
+    }
+
+    .footers img {
+        height: 30px;
+    }
+
+    .footer-ket .ket {
+        font-size: 8px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+        width: 70%;
+    }
+
+    .footers3 {
+        font-size: 7px;
+        font-weight: 100;
+        letter-spacing: 1.2px;
+    }
+
+    .icon img {
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+    }
+    footer{
+        background-color: #003F7D;
+        padding: 10px 0;
+        color: #fff;
+        
+    }
+}
+
+
+
+
+
+
