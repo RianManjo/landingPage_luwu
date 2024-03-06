@@ -1,19 +1,12 @@
+/* Navigation Bar */
 .navbar {
     background-color: #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 23px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
-
-#hero{
-    margin-top: 130px;
-}
-
-#hero .company{
-    width:100%;
-}
-
 
 .content-navbar {
     display: flex;
@@ -23,29 +16,37 @@
     gap:23px;
 }
 
+.logoluwu {
+    width: 65px;
+    height: 80px;
+}
+
+.content-navbar p {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;   
+}
+/* Navigation Bar End */
 .section-one {
     background-image: url('assets/image/Desktop\ -\ 1.svg');
     height: 720px;
     background-repeat: no-repeat;
-    width: 100%;
+    /* width: 100%; */
     background-size: cover;
 }
 
-.logokolaka {
-    width: 82.97px;
-    height: 93px;
+/* Section One */
+#hero{
+    margin-top: 130px;
 }
 
-.content-navbar p {
-    margin-top: 18.5px;
-    font-size: 20px;
-    font-weight: bold
-}
-
-
-
-.welcome p {
-    color: #7D7987;
+#hero .title {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
 }
 
 .content-one {
@@ -55,26 +56,28 @@
 }
 
 .content-one .title {
-    margin-bottom: 13px;
+    /* margin-bottom: 13px; */
+    font-size: 40px;
+}
+
+.content-one .ket {
+    color: #FEEF00;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: Poppins, sans-serif;
+    text-shadow: -1px -1px 0 #08844C, 1px -1px 0 #08844C, -1px 1px 0 #08844C, 1px 1px 0 #08844C;
+    letter-spacing: 1.5px;
+
 }
 
 .content-one .sub-title {
     margin-top: 11px;
     margin-bottom: 30px;
-}
-
-#hero .title {
-    color: #FFF;
-    font-family: Poppins, sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-}
-
-#hero .sub-title {
     color: #FFF;
     font-size: 21px;
     font-family: Poppins, sans-serif;
-    font-weight: lighter;    
+    font-weight: lighter;  
 }
 
 #hero button {
@@ -87,9 +90,10 @@
     border: none;
     border-radius: 10px;
 }
+/* Section One End */
 
-#aplikasi {
-    margin-bottom: 193px;
+/* Section Two */
+#aplikasi {    
     margin-top: 167px;
     background-repeat: no-repeat;
     width: 100%;
@@ -103,42 +107,11 @@
     font-weight: 500;
 }
 
-.aplikasi {
-    color: #003F7D;
-    font-weight: bold;
-    font-size: 36px;
-    font-family: Inter, sans-serif;
-    margin-top: 10vh;
-}
-
 .aplikasi img {
     margin-bottom: 370px;
 }
 
-.text-center-sorume {
-    text-align: center;
-    color: #000;
-    font-size: 12px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.text-center-emonev {
-    text-align: center;
-    color: #000;
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-.text-center-esakip {
-    color: #FECD0E;
-    font-size: 10px;
-    font-family: Inter, sans-serif;
-    text-align: center;
-}
-
-.title {
+.card .title {
     color: #000;
     font-size: 24px;
     font-weight: bold;
@@ -155,45 +128,11 @@
 section {
     margin-bottom: 2vh;
 }
-/* 
-footer{
-    background-color: #003F7D;
-    padding: 40px 0;
-    color: #fff;
-}
-
-footer .title{
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 17px;
-}
-
-.footer-ket .ket {
-    font-size: 18px;
-    font-weight: 100;
-    letter-spacing: 0.5px;
-    margin-top: -5px;
-}
-
-.footers3 {
-    font-size: 14px;
-    font-weight: 100;
-    letter-spacing: 1.2px;
-}
-
-.icon img {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-} */
 
 .card {
     animation-name: slide-up;
-    background-color: #D7FBE8;
-    /* border-radius: 20px 0 0 20px; */
-    margin-top: 110px;
-    height: 354px;
+    background-color: #D7FBE8;    
+    height: 354px;    
     position: relative;
 }
 
@@ -211,14 +150,9 @@ footer .title{
     font-weight: 200;
     font-family: Mulish, sans-serif;
     color: #7D7987;
-    letter-spacing: 0.5px;
-    /* line-height: 32px; */
+    letter-spacing: 0.5px;    
 }
 
-a {
-    color: #FFF;
-    text-decoration: none;
-}
 .card button {
     background-color: #08844C;
     color: #FFF;
@@ -226,8 +160,7 @@ a {
     border: none;
     border-radius: 10px;
     height: 52px;
-    width: 195px;
-    
+    width: 195px;    
     margin-top: 30px;
     text-align: center;
     display: flex;
@@ -235,12 +168,19 @@ a {
     align-items: center;
 }
 
+.card button a {
+    color: #FFF;
+    text-decoration: none;
+}
+
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* Section Two End */
 
+/* Footer */
 #footer {
     background-color: #08844C;
     color: #FFF;
@@ -259,8 +199,8 @@ a {
 .footer-ket .title {
     font-size: 18px;
     font-weight: bold;
-    font-family: Mulish, sans-serif;
-    color: #FEEF00;
+    font-family: Poppins, sans-serif;
+    color: #FEEF00;    
     margin-top: 15px;
     margin-bottom: 16px;
 }
@@ -281,13 +221,13 @@ a {
     margin-top: 65px;
 }
 
-.icon .d-flex img {
-    width: 24px;
-    
-}
-
 .icon .title {
     color: #FEEF00;
+    position: absolute;    
+}
+
+.icons {
+    /* margin-top: 54px; */
 }
 
 .copyright .title {
@@ -299,11 +239,12 @@ a {
 
 .sosmed {
     display: flex;
-    gap: 12px;
+    gap: 12px;    
+    margin-bottom: -13px;
 }
 
-.youtube {
-    display: none;
+.sosmed p {
+    margin-top: 15px;
 }
 
 .mobile {
@@ -313,140 +254,252 @@ a {
 
 
 @media (max-width: 767px) {
-
+/* Navigation Bar */
     .navbar {
-        background-color: #003F7D;
+        height: 120px;        
+        background-color: #FFF;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 16px 0;
+        
     }
+    
     .content-navbar {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #fff;
-        gap: 15px;
-    }
-
-    .content-navbar p {
-        margin-top: 18.5px;
-        font-size: 20px;
-        font-weight: bold
-    }
-    #hero{
-        margin-top: 120px;
-    }
-    #hero .company{
-        width:80%;
-        display: flex;
-        margin: 0 auto;
-    }
-    #hero .title {
-        color: #003F7D;
-        font-size: 25px;
-        font-weight: bold;
-    }
-
-    #hero .sub-title {
-        font-size: 15px;
-    }
-
-    .welcome {
-        margin-top: 18vh;
-        /* background-color: red;
-        position: relative;
-        width: 100px;
-        color: #000; */
-        margin-left: -200px;        
-    }
-
-    .welcome h1 {
-        font-size: 24px;
-    }
-
-    .welcome p {
-        font-size: 10px;        
+        color: #08844C;
+        gap: 12px;
     }
     
-    .logokolaka {
-        width: 30px;
-        height: 40px;
+    .logoluwu {
+        width: 45px;
+        height: 60px;
     }
 
     .line {
-        width: 2.5px;
-        height: 26px;
+        height: 60px;
     }
-
+    
     .content-navbar p {
-        font-size: 12px;
-        margin: 0;
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 20px;  
+        
+    }
+/* Navigation Bar End     */
+    #hero {
+        margin-top: 120px;
     }
 
-    .industri {
-        animation-name: slide-left;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-        float: right;
-        margin-top: 160px;
+    #hero .title {
+        color: #FFF;
+        font-family: Poppins, sans-serif;
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: 0.6px;
     }
-
-    .industri img {
-        width: 200px;
-        height: auto;
-    }
-
-    .aplikasi {
-        font-size: 20px;
-    }
-
-    footer{
-        background-color: #003F7D;
-        padding: 40px 0;
-        color: #fff;
+    
+    .content-one {
+        margin-top: 208px;
+        margin-bottom: 208px;
         
     }
     
-    footer .title{
-        color: #fff;
+    .content-one .title {
+        /* margin-bottom: 13px; */
+        font-size: 40px;
+    }
+    
+    .content-one .ket {
+        color: #FEEF00;
+        text-transform: capitalize;
+        font-size: 38px;
+        font-weight: 900;
+        font-family: Poppins, sans-serif;
+        text-shadow: -1px -1px 0 #08844C, 1px -1px 0 #08844C, -1px 1px 0 #08844C, 1px 1px 0 #08844C;
+        letter-spacing: 1px;
+    
+    }
+    
+    .content-one .sub-title {
+        margin-top: 4px;
+        margin-bottom: 30px;
+        color: #FFF;
+        font-size: 15px;
+        font-family: Poppins, sans-serif;
+        font-weight: lighter;  
+    }
+    
+    #hero button {
+        color: #00923F;
         font-size: 12px;
-        font-weight: 700;
-        margin-bottom: 9px;
+        font-weight: 600;
+        background-color: #FEEF00;
+        height: 36px;
+        width: 180px;
+        border: none;
+        border-radius: 10px;
+    }
+/* Section One End */
+
+/* Section Two */
+    #aplikasi {    
+        margin-top: 50px;
+        /* background-repeat: no-repeat; */
+        width: 100%;        
     }
 
-    .footers img {
-        height: 30px;
+    .apk {
+        color: #08844C;
+        font-size: 29px;
+        font-family: Poppins, sans-serif;
+        font-weight: 500;        
+        position: relative;
+    }
+
+    .aplikasi img {        
+        position: absolute;        
+    }
+
+    .card .title {
+        color: #000;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Inter, sans-serif;
+    }
+
+    .box {
+        height: 250px;
+        width: 245px;
+        background-color: #7D7987;
+        margin-bottom: 100px;
+    }
+
+    section {
+        margin-bottom: 2vh;
+    }
+
+    .card {
+        animation-name: slide-up;
+        background-color: #D7FBE8;    
+        height: 354px;    
+        position: relative;
+    }
+
+    .card .title {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 500px;
+        font-family: Poppins, sans-serif;
+        margin-top: 18px;
+    }
+
+    .keterangan {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 200;
+        font-family: Mulish, sans-serif;
+        color: #7D7987;
+        letter-spacing: 0.5px;    
+    }
+
+    .card button {
+        background-color: #08844C;
+        color: #FFF;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        height: 52px;
+        width: 195px;    
+        margin-top: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card button a {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+/* Section Two End */
+
+/* Footer */
+    #footer {
+        background-color: #08844C;
+        color: #FFF;
+        margin-bottom: -10px;
+        bottom: 0;
+    }
+
+    .footer-logo {
+        margin-top: 52px;
+    }
+
+    .footer-ket {
+        margin-top: 52px;
+    }
+
+    .footer-ket .title {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Poppins, sans-serif;
+        color: #FEEF00;    
+        margin-top: 15px;
+        margin-bottom: 16px;
     }
 
     .footer-ket .ket {
-        font-size: 8px;
-        font-weight: 100;
-        letter-spacing: 0.5px;
-        width: 70%;
+        font-size: 18px;
+        font-weight: 200;
+        font-style: Mulish, sans-serif;
+        width: 60%;
     }
 
-    .footers3 {
-        font-size: 7px;
-        font-weight: 100;
-        letter-spacing: 1.2px;
+    .container .title {
+        font-size: 18px;
+        font-family: Mulish, sans-serif;
     }
 
-    .icon img {
-        width: 10px;
-        height: 10px;
-        cursor: pointer;
+    .icon {
+        margin-top: 65px;
     }
-    footer{
-        background-color: #003F7D;
-        padding: 10px 0;
-        color: #fff;
+
+    .icon .d-flex img {
+        width: 24px;
         
     }
+
+    .icon .title {
+        color: #FEEF00;
+    }
+
+    .copyright .title {
+        font-size: 16px;
+        font-weight: 100;
+        font-family: Poppins, sans-serif;
+        color: #FFF;   
+    }
+
+    .sosmed {
+        display: flex;
+        gap: 12px;
+    }
+
+    .sosmed p {
+        margin-top: 15px;
+    }
+
+    .mobile {
+        display: none;
+    }
 }
-
-
-
-
-
-
+/* Footer End */
