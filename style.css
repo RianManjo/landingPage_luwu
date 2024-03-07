@@ -30,7 +30,7 @@
 /* Navigation Bar End */
 .section-one {
     background-image: url('assets/image/Desktop\ -\ 1.svg');
-    height: 720px;
+    height: 100vh;
     background-repeat: no-repeat;
     /* width: 100%; */
     background-size: cover;
@@ -38,7 +38,7 @@
 
 /* Section One */
 #hero{
-    margin-top: 130px;
+    margin-top: 153px;
 }
 
 #hero .title {
