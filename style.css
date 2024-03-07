@@ -107,6 +107,10 @@
     font-weight: 500;
 }
 
+.aplikasi-mobile {
+    display: none;
+}
+
 .aplikasi img {
     margin-bottom: 370px;
 }
@@ -247,9 +251,12 @@ section {
     margin-top: 15px;
 }
 
-.mobile {
+.footer-mobile {
     display: none;
 }
+
+
+
 
 
 
@@ -359,6 +366,30 @@ section {
         position: relative;
     }
 
+    .aplikasi {
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aplikasi-mobile {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aplikasi-mobile .apk {
+        font-size: 26px;
+    }
+
+    .aplikasi-mobile .apk {
+        text-align: center;
+        font-weight: 600;
+        font-family: Poppins, sans-serif;
+        font-size: 20px;
+    }
+
     .aplikasi img {        
         position: absolute;        
     }
@@ -437,69 +468,58 @@ section {
         background-color: #08844C;
         color: #FFF;
         margin-bottom: -10px;
-        bottom: 0;
+        bottom: 0;        
     }
 
-    .footer-logo {
-        margin-top: 52px;
-    }
-
-    .footer-ket {
-        margin-top: 52px;
-    }
-
-    .footer-ket .title {
-        font-size: 18px;
-        font-weight: bold;
-        font-family: Poppins, sans-serif;
-        color: #FEEF00;    
-        margin-top: 15px;
-        margin-bottom: 16px;
-    }
-
-    .footer-ket .ket {
-        font-size: 18px;
-        font-weight: 200;
-        font-style: Mulish, sans-serif;
-        width: 60%;
-    }
-
-    .container .title {
-        font-size: 18px;
-        font-family: Mulish, sans-serif;
-    }
-
-    .icon {
-        margin-top: 65px;
-    }
-
-    .icon .d-flex img {
-        width: 24px;
-        
-    }
-
-    .icon .title {
-        color: #FEEF00;
-    }
-
-    .copyright .title {
-        font-size: 16px;
-        font-weight: 100;
-        font-family: Poppins, sans-serif;
-        color: #FFF;   
-    }
-
-    .sosmed {
-        display: flex;
-        gap: 12px;
-    }
-
-    .sosmed p {
-        margin-top: 15px;
-    }
-
-    .mobile {
+    .col-md-8 {
         display: none;
+    }
+    
+    .col-md-4 {
+        display: none;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: block;
+    }
+
+    .footer-ket-mobile .title {
+        color: #FEEF00;
+        font-size: 12px;
+        font-weight: 700;
+
+    }
+
+    .footer-ket-mobile .sub-title {
+        font-size: 10px;
+        margin-top: -10px;
+    }
+
+    .sosmed-mobile ul{
+        display: flex;
+        float: right;
+        gap: 5px;
+    }
+
+    .sosmed-mobile ul li {
+        list-style: none;
+        margin-top: -20px;
+    }
+
+    .sosmed-mobile .title {
+        color: #FEEF00;
+        font-size: 10px;
+    }
+
+    .copy .title {
+        font-size: 10px;
+        font-family: Poppins, sans-serif;
+        font-weight: 100;
+        margin-bottom: 0px;
     }
 }
 /* Footer End */
